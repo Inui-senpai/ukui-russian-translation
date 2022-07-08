@@ -277,7 +277,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../../src/windows/main-window.cpp" line="638"/>
         <source>warn</source>
-        <translation>警告</translation>
+        <translation>Внимание</translation>
     </message>
     <message>
         <location filename="../../src/windows/main-window.cpp" line="638"/>
@@ -334,7 +334,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../../src/control/navigation-side-bar.cpp" line="361"/>
         <source>warn</source>
-        <translation>警告</translation>
+        <translation>Внимание</translation>
     </message>
     <message>
         <location filename="../../src/control/navigation-side-bar.cpp" line="361"/>
@@ -896,12 +896,12 @@ Do you want to unmount forcely?</source>
     <message>
         <location filename="../../src/control/tab-status-bar.cpp" line="162"/>
         <source>selected%1%2</source>
-        <translation>выделено%1%2</translation>
+        <translation>Выделено%1%2</translation>
     </message>
     <message>
         <location filename="../../src/control/tab-status-bar.cpp" line="191"/>
         <source> selected %1 items    %2</source>
-        <translation> выделено элементов: %1    %2</translation>
+        <translation> Выделено элементов: %1    %2</translation>
     </message>
     <message>
         <location filename="../../src/control/tab-status-bar.cpp" line="193"/>
@@ -923,12 +923,12 @@ Do you want to unmount forcely?</source>
     <message>
         <location filename="../../src/control/tab-widget.cpp" line="258"/>
         <source>Clear</source>
-        <translation>Очистить</translation>
+        <translation>Удалить</translation>
     </message>
     <message>
         <location filename="../../src/control/tab-widget.cpp" line="263"/>
         <source>Recover</source>
-        <translation>Восстановить</translation>
+        <translation>Вернуть</translation>
     </message>
     <message>
         <location filename="../../src/control/tab-widget.cpp" line="359"/>

@@ -35,8 +35,9 @@ $ sudo -s
 
 # Список дел
 - [ ] Перевести (и разобраться в том, что из этого надо переводить):
+* - [ ] libpeony-qt (в процессе)
 * - [x] peony
-* - [ ] peony-qt-desktop (в процессе)
+* - [x] peony-qt-desktop
 * - [ ] peony-extensions
 * - [ ] ukui-menu
 * - [ ] ukui-panel
