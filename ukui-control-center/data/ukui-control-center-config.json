@@ -1,0 +1,302 @@
+{
+    "Name": "org.ukui.ukcc.session",
+    "Path": "/",
+    "Interfaces": "org.ukui.ukcc.session.interface",
+    "ukcc": [
+        {
+            "name": "account",
+            "visible": true,
+            "module_type": 0,
+            "theme_icon_name": "kylin-settings-account",
+            "local_icon_name": ":/img/homepage/kylin-settings-account.png",
+            "name_locale": {
+                "zh_CN" : "账户",
+                "en_US" : "Account",
+                "bo_CN" : "རྩིས་ཐོ།",
+                "mn_MN" : "ᠳᠠᠩᠰᠠ",
+                "zh_HK" : "賬戶",
+                "ru_RU" : "Учётная запись"
+            },
+            "childnode": [
+                {
+                    "name": "userinfo",
+                    "visible": true
+                },
+                {
+                    "name": "biometric"
+                },
+                {
+                    "name": "networkaccount"
+                }
+            ]
+        },
+        {
+            "name": "system",
+            "module_type": 1,
+            "theme_icon_name": "kylin-settings-system",
+            "local_icon_name": ":/img/homepage/kylin-settings-system.png",
+            "name_locale": {
+                "zh_CN" : "系统",
+                "en_US" : "System",
+                "bo_CN" : "ལམ་ལུགས།",
+                "mn_MN" : "ᠰᠢᠰᠲ᠋ᠧᠮ",
+                "zh_HK" : "系統",
+                "ru_RU" : "Система"
+            },
+            "childnode": [
+                {
+                    "name": "display"
+                },
+                {
+                    "name": "audio"
+                },
+                {
+                    "name": "power"
+                },
+                {
+                    "name": "notice"
+                },
+                {
+                    "name": "vino"
+                },
+                {
+                    "name": "about"
+                },
+                {
+                    "name": "touchCalibrate"
+                }
+            ]
+        },
+        {
+            "name": "devices",
+            "module_type": 2,
+            "theme_icon_name": "kylin-settings-devices",
+            "local_icon_name": ":/img/homepage/kylin-settings-devices.png",
+            "name_locale": {
+                "zh_CN" : "设备",
+                "en_US" : "Devices",
+                "bo_CN" : "སྒྲིག་ཆས།",
+                "mn_MN" : "ᠳᠦᠬᠦᠬᠡᠷᠦᠮᠵᠢ",
+                "zh_HK" : "設備",
+                "ru_RU" : "Устройства"
+            },
+            "childnode": [
+                {
+                    "name": "blueTooth"
+                },
+                {
+                    "name": "printer"
+                },
+                {
+                    "name": "mouse"
+                },
+                {
+                    "name": "touchpad"
+                },
+                {
+                    "name": "touchScreen"
+                },
+                {
+                    "name": "keyboard"
+                },
+                {
+                    "name": "shortcut"
+                },
+                {
+                    "name": ""
+                },
+                {
+                    "name": "projection"
+                }
+            ]
+        },
+        {
+            "name": "network",
+            "module_type": 3,
+            "theme_icon_name": "kylin-settings-network",
+            "local_icon_name": ":/img/homepage/kylin-settings-network.png",
+            "name_locale": {
+                "zh_CN" : "网络",
+                "en_US" : "Network",
+                "bo_CN" : "དྲ་རྒྱ།",
+                "mn_MN" : "ᠰᠦᠯᠵᠢᠶᠡᠨ ᠤ᠋ ᠪᠠᠢᠳᠠᠯ",
+                "zh_HK" : "網絡",
+                "ru_RU" : "Сеть"
+            },
+            "childnode": [
+                {
+                    "name": "netconnect"
+                },
+                {
+                    "name": "wlanconnect"
+                },
+                {
+                    "name": ""
+                },
+                {
+                    "name": "proxy"
+                },
+                {
+                    "name": "vpn"
+                },
+                {
+                    "name": "mobilehotspot"
+                }
+            ]
+        },
+        {
+            "name": "personalized",
+            "module_type": 4,
+            "theme_icon_name": "kylin-settings-personalized",
+            "local_icon_name": ":/img/homepage/kylin-settings-personalized.png",
+            "name_locale": {
+                "zh_CN" : "个性化",
+                "en_US" : "Personalized",
+                "bo_CN" : "རང་གཤིས་ཅན་",
+                "mn_MN" : "ᠦᠪᠡᠷᠮᠢᠴᠡᠬᠦᠯᠬᠦ",
+                "zh_HK" : "個性化",
+                "ru_RU" : "Персонализация"
+            },
+            "childnode":  [
+                {
+                    "name": "wallpaper"
+                },
+                {
+                    "name": "theme"
+                },
+                {
+                    "name": "screenlock"
+                },
+                {
+                    "name": "screensaver"
+                },
+                {
+                    "name": "fonts"
+                }
+            ]
+        },
+        {
+            "name": "datetime",
+            "module_type": 5,
+            "theme_icon_name": "kylin-settings-datetime",
+            "local_icon_name": ":/img/homepage/kylin-settings-datetime.png",
+            "name_locale": {
+                "zh_CN" : "时间语言",
+                "en_US" : "Datetime",
+                "bo_CN" : "དུས་ཚོད་ཀྱི་དུས་ཚོད།",
+                "mn_MN" : "ᠴᠠᠭ ᠬᠤᠭᠤᠴᠠᠭᠠᠨ ᠤ᠋ ᠦᠭᠡ ᠬᠡᠯᠡ",
+                "zh_HK" : "時間語言",
+                "ru_RU" : "Дата и время"
+            },
+            "childnode": [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "area"
+                }
+            ]
+        },
+        {
+            "name": "update",
+            "module_type": 6,
+            "theme_icon_name": "kylin-settings-update",
+            "local_icon_name": ":/img/homepage/kylin-settings-update.png",
+            "name_locale": {
+                "zh_CN" : "更新",
+                "en_US" : "Update",
+                "bo_CN" : "གསར་སྒྱུར།",
+                "mn_MN" : "ᠰᠢᠨᠡᠳᠬᠡᠬᠦ",
+                "zh_HK" : "更新",
+                "ru_RU" : "Обновления"
+            },
+            "childnode": [
+                {
+                    "name": "upgrade"
+                },
+                {
+                    "name": "backup"
+                }
+            ]
+        },
+        {
+            "name": "security",
+            "module_type": 7,
+            "theme_icon_name": "kylin-settings-security",
+            "local_icon_name": ":/img/homepage/kylin-settings-security.png",
+            "name_locale": {
+                "zh_CN" : "安全",
+                "en_US" : "Security",
+                "bo_CN" : "བདེ་འཇགས།",
+                "mn_MN" : "ᠠᠮᠤᠷ ᠳᠦᠪᠰᠢᠨ ᠰᠢᠨᠵᠢ",
+                "zh_HK" : "安全",
+                "ru_RU" : "Безопасность"
+            },
+            "childnode": [
+                {
+                    "name": "securitycenter"
+                }
+            ]
+        },
+        {
+            "name": "application",
+            "module_type": 8,
+            "theme_icon_name": "kylin-settings-application",
+            "local_icon_name": ":/img/homepage/kylin-settings-application.png",
+            "name_locale": {
+                "zh_CN" : "应用",
+                "en_US" : "Application",
+                "bo_CN" : "རེ་འདུན་ཞུ་ཡིག",
+                "mn_MN" : "ᠬᠡᠷᠡᠭᠯᠡᠬᠡᠨ ᠤ᠋ ᠰᠣᠹᠲ",
+                "zh_HK" : "應用",
+                "ru_RU" : "Приложения"
+            },
+            "childnode": [
+                {
+                    "name": "autoboot"
+                },
+                {
+                    "name": "defaultapp"
+                }
+            ]
+        },
+        {
+            "name": "search_f",
+            "module_type": 9,
+            "theme_icon_name": "kylin-settings-search",
+            "local_icon_name": ":/img/homepage/kylin-settings-search.png",
+            "name_locale": {
+                "zh_CN" : "搜索",
+                "en_US" : "Investigation",
+                "bo_CN" : "བརྟག་དཔྱད།",
+                "mn_MN" : "ᠬᠠᠢᠬᠤ",
+                "zh_HK" : "搜索",
+                "ru_RU" : "Поиск"
+            },
+            "childnode": [
+                {
+                    "name": "search"
+                }
+            ]
+        },
+        {
+            "name": "commoninfo",
+            "module_type": 10,
+            "theme_icon_name": "kylin-settings-commoninfo",
+            "local_icon_name": ":/img/homepage/kylin-settings-commoninfo.png",
+            "name_locale": {
+                "zh_CN" : "通用",
+                "en_US" : "Commoninfo",
+                "bo_CN" : "ཀུན་སྤྱོད་",
+                "mn_MN" : "ᠨᠡᠢᠳᠡᠮ ᠬᠡᠷᠡᠭᠯᠡᠬᠦ",
+                "zh_HK" : "通用",
+                "ru_RU" : "Общие"
+            },
+            "childnode": [
+                {
+                    "name": "boot"
+                }
+            ]
+        }
+    ]
+}
